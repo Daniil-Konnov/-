@@ -1,0 +1,1290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap");
+.wrapper section .personal-container .personal-form .buttons, .wrapper section .personal-container .personal-form, .wrapper section .personal-container, .wrapper section .container-form .form-body .fields, .wrapper section .container-form .form-body, .wrapper section .container-form .form-head, .wrapper section .container-form, .wrapper section .catalog .catalog-body .items .card, .wrapper section .catalog .catalog-body .menu .menu-list .list-card ul, .wrapper section .catalog .catalog-body .menu .menu-list .list-card, .wrapper section .catalog .catalog-body .menu .menu-list, .wrapper section .catalog .catalog-body .menu .basket, .wrapper section .catalog .catalog-body .menu, .wrapper section .catalog .catalog-body, .wrapper section .catalog, .wrapper section .main-3 .sign .sign-body, .wrapper section .main-3 .sign, .wrapper section .main-3 .registr .registr-body, .wrapper section .main-3 .registr, .wrapper section .main-3, .wrapper section .main-2 .main-body .card, .wrapper section .main-2 .main-body, .wrapper section .main-2, .wrapper section .main-1, .wrapper section, .wrapper footer .container-foot .right .right-body a, .wrapper footer .container-foot .right .right-body, .wrapper footer .container-foot .right, .wrapper footer .container-foot .left .left-body, .wrapper footer .container-foot .left, .wrapper footer .container-foot, .wrapper footer, .wrapper header .container-head .head-3, .wrapper header .container-head .head-2 ul, .wrapper header .container-head .head-2, .wrapper header .container-head .head-1, .wrapper header .container-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper header {
+  width: 100%;
+  height: 100px;
+  padding: 20px 0;
+}
+.wrapper header .container-head {
+  width: 100%;
+  height: 100%;
+}
+.wrapper header .container-head .head-1 {
+  width: 15%;
+  height: 100%;
+  justify-content: center;
+}
+.wrapper header .container-head .head-1 .logo {
+  margin: 0;
+  text-transform: uppercase;
+  background: #2e2f45;
+  display: table;
+  color: white;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+  cursor: not-allowed;
+}
+.wrapper header .container-head .head-2 {
+  width: 70%;
+  height: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+.wrapper header .container-head .head-2 a {
+  display: inline-block;
+  font-size: 1.25rem;
+  color: rgb(226, 60, 9);
+  text-decoration: none;
+}
+.wrapper header .container-head .head-2 a:hover {
+  color: #212529;
+}
+.wrapper header .container-head .head-2 ul {
+  width: 82.5%;
+  height: 100%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.wrapper header .container-head .head-3 {
+  width: 15%;
+  height: 100%;
+  justify-content: center;
+}
+.wrapper header .container-head .head-3 a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #198754;
+}
+.wrapper header .container-head .head-3 a:hover {
+  background-color: #157347;
+}
+.wrapper footer {
+  width: 100%;
+  height: 230px;
+  flex-direction: column;
+}
+.wrapper footer .container-foot {
+  width: 100%;
+  height: 90%;
+}
+.wrapper footer .container-foot .left {
+  width: 40%;
+  height: 85%;
+  flex-direction: column;
+}
+.wrapper footer .container-foot .left .left-head {
+  width: 100%;
+  height: 18%;
+  text-align: center;
+}
+.wrapper footer .container-foot .left .left-head h4 {
+  color: rgb(226, 60, 9);
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper footer .container-foot .left .left-body {
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper footer .container-foot .left .left-body h5 {
+  color: rgb(226, 60, 9);
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper footer .container-foot .left .left-body h5 a {
+  color: rgb(226, 60, 9);
+  text-decoration: none;
+}
+.wrapper footer .container-foot .left .left-body h5 a:hover {
+  color: #212529;
+}
+.wrapper footer .container-foot .right {
+  width: 60%;
+  height: 85%;
+  flex-direction: column;
+}
+.wrapper footer .container-foot .right .right-head {
+  width: 100%;
+  height: 18%;
+  text-align: center;
+}
+.wrapper footer .container-foot .right .right-head h4 {
+  color: rgb(226, 60, 9);
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper footer .container-foot .right .right-body {
+  width: 100%;
+  height: 80%;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.wrapper footer .container-foot .right .right-body a {
+  width: 10%;
+  height: 40%;
+  margin: 0 5%;
+  color: #212529;
+  border: 1px solid;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.25rem;
+  color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+.wrapper footer .container-foot .right .right-body a:hover {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+.wrapper footer .caption {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.wrapper footer .caption h6 {
+  font-size: 1rem;
+  color: #212529;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.wrapper header,
+.wrapper footer {
+  background: #1049a9;
+  background: linear-gradient(135deg, #1049a9 0%, #5b2680 100%);
+}
+.wrapper section {
+  flex-direction: column;
+  padding: 50px 0;
+}
+.wrapper section .main-1 {
+  width: 80%;
+  height: 600px;
+}
+.wrapper section .main-1 .slider {
+  width: 60%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.wrapper section .main-1 .slider .slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.wrapper section .main-1 .slider .slide img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper section .main-1 .slider .slide h1 {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212529;
+}
+.wrapper section .main-1 .slider .slide.active {
+  display: block;
+}
+.wrapper section .main-1 .slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.wrapper section .main-1 .slider button img {
+  width: 20px;
+  height: 20px;
+}
+.wrapper section .main-1 .slider .prev {
+  left: 10px;
+}
+.wrapper section .main-1 .slider .next {
+  right: 10px;
+}
+.wrapper section .main-2 {
+  width: 80%;
+  height: 1000px;
+  flex-direction: column;
+  color: #212529;
+}
+.wrapper section .main-2 .main-head {
+  width: 100%;
+  height: 5%;
+}
+.wrapper section .main-2 .main-head h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+.wrapper section .main-2 .main-body {
+  width: 100%;
+  height: 92%;
+  flex-wrap: wrap;
+}
+.wrapper section .main-2 .main-body .card {
+  width: 19%;
+  height: 48%;
+  flex-direction: column;
+  position: relative;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.wrapper section .main-2 .main-body .card .card-img {
+  width: 100%;
+  height: 50%;
+}
+.wrapper section .main-2 .main-body .card .card-text {
+  width: 100%;
+  height: 20%;
+}
+.wrapper section .main-2 .main-body .card .card-btn {
+  width: 100%;
+  height: 30%;
+}
+.wrapper section .main-2 .main-body .card .card-text,
+.wrapper section .main-2 .main-body .card .card-btn {
+  padding: 1rem;
+}
+.wrapper section .main-2 .main-body .card .card-text h5,
+.wrapper section .main-2 .main-body .card .card-btn h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .main-2 .main-body .card .card-text p,
+.wrapper section .main-2 .main-body .card .card-btn p {
+  padding-bottom: 1rem;
+  color: rgb(226, 60, 9);
+  margin: 0;
+}
+.wrapper section .main-2 .main-body .card .card-text a,
+.wrapper section .main-2 .main-body .card .card-btn a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #198754;
+  border-color: #198754;
+}
+.wrapper section .main-2 .main-body .card .card-text a:hover,
+.wrapper section .main-2 .main-body .card .card-btn a:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+.wrapper section .main-3 {
+  width: 80%;
+  height: 700px;
+}
+.wrapper section .main-3 .registr {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  color: #212529;
+}
+.wrapper section .main-3 .registr .registr-header {
+  width: 100%;
+  height: 7%;
+  text-align: center;
+}
+.wrapper section .main-3 .registr .registr-header h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .main-3 .registr .registr-body {
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wrapper section .main-3 .registr .registr-body .fields {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapper section .main-3 .registr .registr-body .fields label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+}
+.wrapper section .main-3 .registr .registr-body .fields input {
+  display: block;
+  width: 90%;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .main-3 .registr .registr-body .fields input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .main-3 .registr .registr-body .btn-submit {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  align-self: flex-start;
+}
+.wrapper section .main-3 .registr .registr-body .btn-submit:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper section .main-3 .sign {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  color: #212529;
+}
+.wrapper section .main-3 .sign .sign-header {
+  width: 100%;
+  height: 7%;
+  text-align: center;
+}
+.wrapper section .main-3 .sign .sign-header h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212529;
+}
+.wrapper section .main-3 .sign .sign-body {
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wrapper section .main-3 .sign .sign-body .fields {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapper section .main-3 .sign .sign-body .fields label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+}
+.wrapper section .main-3 .sign .sign-body .fields input {
+  display: block;
+  width: 90%;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .main-3 .sign .sign-body .fields input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .main-3 .sign .sign-body .btn-submit {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  align-self: flex-start;
+}
+.wrapper section .main-3 .sign .sign-body .btn-submit:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper section .catalog {
+  width: 90%;
+  min-height: 640px;
+  flex-direction: column;
+}
+.wrapper section .catalog .catalog-head {
+  width: 100%;
+  height: 48px;
+}
+.wrapper section .catalog .catalog-head h1 {
+  text-align: center;
+  color: #212529;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .catalog .catalog-body {
+  width: 100%;
+  height: 85%;
+}
+.wrapper section .catalog .catalog-body .menu {
+  width: 15%;
+  height: 510px;
+  flex-direction: column;
+  align-self: start;
+}
+.wrapper section .catalog .catalog-body .menu .basket {
+  width: 100%;
+  height: 5%;
+  flex: 1 0 0%;
+  text-align: center;
+}
+.wrapper section .catalog .catalog-body .menu .basket button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.wrapper section .catalog .catalog-body .menu .basket button:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper section .catalog .catalog-body .menu .menu-list {
+  width: 100%;
+  height: 90%;
+}
+.wrapper section .catalog .catalog-body .menu .menu-list .list-card {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.2rem;
+}
+.wrapper section .catalog .catalog-body .menu .menu-list .list-card ul {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.wrapper section .catalog .catalog-body .menu .menu-list .list-card ul a {
+  width: 100%;
+  height: 14%;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #212529;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-width: 0 0 1px;
+}
+.wrapper section .catalog .catalog-body .menu .menu-list .list-card ul a:last-child {
+  border-bottom-width: 0;
+}
+.wrapper section .catalog .catalog-body .items {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 1%;
+       column-gap: 1%;
+}
+.wrapper section .catalog .catalog-body .items .card {
+  width: 24%;
+  min-height: 600px;
+  position: relative;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.wrapper section .catalog .catalog-body .items .card .card-img {
+  width: 100%;
+  height: 40%;
+}
+.wrapper section .catalog .catalog-body .items .card .card-text {
+  width: 100%;
+  height: 40%;
+  padding: 0rem 1rem 2rem;
+}
+.wrapper section .catalog .catalog-body .items .card .card-text h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .catalog .catalog-body .items .card .card-text p {
+  padding-top: 0.5rem;
+  color: #212529;
+}
+.wrapper section .catalog .catalog-body .items .card .card-btn {
+  width: 100%;
+  height: 20%;
+  padding: 2rem 1rem 0rem;
+}
+.wrapper section .catalog .catalog-body .items .card .card-btn p {
+  color: rgb(226, 60, 9);
+  padding-bottom: 0.5rem;
+}
+.wrapper section .catalog .catalog-body .items .card .card-btn a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #198754;
+  border-color: #198754;
+}
+.wrapper section .catalog .catalog-body .items .card .card-btn a:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+.wrapper section .popup-basket-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+.wrapper section .popup-basket-bg.active {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.5s all;
+}
+.wrapper section .popup-basket-bg .popup-basket {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+  width: 60vw;
+  max-height: 80vh;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  transition: 0.5s all;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.wrapper section .popup-basket-bg .popup-basket.active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.5s all;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-header h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-header button {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #000;
+  background: transparent url(../img/krest.svg) center/5em auto no-repeat;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem -0.5rem -0.5rem auto;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-header button:hover {
+  opacity: 0.75;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body {
+  padding: 1rem;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table thead,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tbody,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tr,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table td,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table thead th,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tbody th,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tr th,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table td th,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table th th {
+  padding: 0.5rem 0.5rem;
+  text-align: inherit;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table thead td,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tbody td,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tr td,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table td td,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table th td {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding: 0.5rem 0.5rem;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table thead td img,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tbody td img,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tr td img,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table td td img,
+.wrapper section .popup-basket-bg .popup-basket .popup-body table th td img {
+  width: 100px;
+  height: 100px;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table thead {
+  border-bottom-color: currentColor;
+  border-bottom-width: 1px;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-body table tbody {
+  vertical-align: inherit;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer a {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer .btn-reset {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer .btn-reset:hover {
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer .btn-form {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.wrapper section .popup-basket-bg .popup-basket .popup-footer .btn-form:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper section .container-about1 {
+  width: 80%;
+  height: 700px;
+  display: grid;
+  place-items: center;
+  grid-template: repeat(9, 1fr)/repeat(3, 1fr);
+  grid-gap: 2%;
+}
+.wrapper section .container-about1 .img1-1 {
+  width: 80%;
+  height: 80%;
+  grid-column: 1/2;
+  grid-row: 2/6;
+}
+.wrapper section .container-about1 .img1-2 {
+  width: 80%;
+  height: 80%;
+  grid-column: 1/2;
+  grid-row: 6/10;
+}
+.wrapper section .container-about1 .text1 {
+  grid-column: 2/4;
+  grid-row: 2/10;
+}
+.wrapper section .container-about2 {
+  width: 80%;
+  height: 700px;
+  display: grid;
+  place-items: center;
+  grid-template: repeat(9, 1fr)/repeat(3, 1fr);
+  grid-gap: 2%;
+  margin: 50px 0;
+}
+.wrapper section .container-about2 .img2-1 {
+  width: 80%;
+  height: 80%;
+  grid-column: 3/4;
+  grid-row: 2/6;
+}
+.wrapper section .container-about2 .img2-2 {
+  width: 80%;
+  height: 80%;
+  grid-column: 3/4;
+  grid-row: 6/10;
+}
+.wrapper section .container-about2 .text2 {
+  grid-column: 1/3;
+  grid-row: 2/10;
+}
+.wrapper section .container-about3 {
+  width: 80%;
+  height: 700px;
+  display: grid;
+  place-items: start center;
+  grid-template: repeat(9, 1fr)/repeat(3, 1fr);
+  grid-gap: 2%;
+}
+.wrapper section .container-about3 .text3 {
+  grid-column: 1/4;
+  grid-row: 2/10;
+}
+.wrapper section .container-about1 .title,
+.wrapper section .container-about2 .title,
+.wrapper section .container-about3 .title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  font-size: 2.5rem;
+}
+.wrapper section .text-about {
+  text-shadow: -1px -1px #e0abc6, -2px -2px #e0abc6, -1px 1px #e0abc6, -2px 2px #e0abc6, 1px 1px #e0abc6, 2px 2px #e0abc6, 1px -1px #e0abc6, 2px -2px #e0abc6, -3px -3px 2px #e0abc6, -3px 3px 2px #e0abc6, 3px 3px 2px #e0abc6, 3px -3px 2px #e0abc6;
+  color: rgb(226, 60, 9);
+  font-weight: bold;
+  line-height: 2;
+}
+.wrapper section .container-form {
+  width: 100%;
+  height: 600px;
+  flex-direction: column;
+  color: #212529;
+}
+.wrapper section .container-form .form-head {
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+}
+.wrapper section .container-form .form-head h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .container-form .form-body {
+  width: 50%;
+  height: 80%;
+  flex-direction: column;
+}
+.wrapper section .container-form .form-body .fields {
+  width: 100%;
+  height: 30%;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper section .container-form .form-body .fields label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+}
+.wrapper section .container-form .form-body .fields input {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .container-form .form-body .fields input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .container-form .form-body .fields select {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 2.2rem 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .container-form .form-body .fields select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .container-form .form-body .fields textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .container-form .form-body .fields textarea:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .container-form .form-body .fields .btn-submit {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  align-self: flex-start;
+}
+.wrapper section .container-form .form-body .fields .btn-submit:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper section .container-form .form-body .fields-btn {
+  width: 100%;
+  height: 40%;
+}
+.wrapper section .personal-container {
+  width: 100%;
+  height: 800px;
+  flex-direction: column;
+  color: #212529;
+}
+.wrapper section .personal-container .head1 {
+  width: 100%;
+  height: 7%;
+  text-align: center;
+}
+.wrapper section .personal-container .head1 h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .personal-container .head2 {
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+.wrapper section .personal-container .head2 h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wrapper section .personal-container .personal-form {
+  width: 40%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wrapper section .personal-container .personal-form .fields {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wrapper section .personal-container .personal-form .fields label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+}
+.wrapper section .personal-container .personal-form .fields input {
+  display: block;
+  width: 90%;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+}
+.wrapper section .personal-container .personal-form .fields input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+.wrapper section .personal-container .personal-form .buttons {
+  width: 100%;
+  height: 10%;
+  justify-content: flex-start;
+}
+.wrapper section .personal-container .personal-form .buttons .btn-submit {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  align-self: flex-start;
+  text-decoration: none;
+  text-decoration: none;
+}
+.wrapper section .personal-container .personal-form .buttons .btn-submit:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+.wrapper .backgrounds {
+  background-image: url(/img/backgrounds/back.jpg);
+}
+
+.no-scroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 1080px) {
+  .wrapper footer .container-foot .right .right-body a {
+    width: 15%;
+    margin: 0 2.5%;
+  }
+  .wrapper section .main-1 .slider {
+    width: 80%;
+  }
+  .wrapper section .main-2 {
+    width: 90%;
+    height: 1500px;
+  }
+  .wrapper section .main-2 .main-head {
+    height: 4%;
+  }
+  .wrapper section .main-2 .main-body .card {
+    width: 24%;
+    height: 32%;
+  }
+  .wrapper section .catalog {
+    width: 99%;
+  }
+  .wrapper section .catalog .catalog-body .menu {
+    width: 18%;
+    height: 600px;
+  }
+  .wrapper section .catalog .catalog-body .items .card {
+    width: 32%;
+    min-height: 700px;
+  }
+  .wrapper section .container-about1,
+  .wrapper section .container-about2 {
+    width: 90%;
+    height: 750px;
+  }
+  .wrapper section .container-about1 .img1-1,
+  .wrapper section .container-about1 .img1-2,
+  .wrapper section .container-about1 .img2-1,
+  .wrapper section .container-about1 .img2-2,
+  .wrapper section .container-about2 .img1-1,
+  .wrapper section .container-about2 .img1-2,
+  .wrapper section .container-about2 .img2-1,
+  .wrapper section .container-about2 .img2-2 {
+    height: 60%;
+  }
+  .wrapper section .container-about3 {
+    width: 90%;
+    height: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .wrapper header .container-head .head-2 {
+    position: relative;
+    width: 30%;
+    justify-content: center;
+  }
+  .wrapper header .container-head .head-2:hover ul {
+    display: inline-block;
+  }
+  .wrapper header .container-head .head-2 a {
+    width: 100%;
+    height: 50%;
+  }
+  .wrapper header .container-head .head-2 ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #1049a9 0%, #5b2680 100%);
+    z-index: 1;
+  }
+  .wrapper header .container-head .head-2 ul a {
+    height: 40px;
+  }
+  .wrapper header .container-head .head-2 ul:hover {
+    display: inline-block;
+  }
+  .wrapper footer {
+    height: 440px;
+  }
+  .wrapper footer .container-foot {
+    flex-direction: column;
+  }
+  .wrapper footer .container-foot .left {
+    width: 100%;
+    height: 40%;
+  }
+  .wrapper footer .container-foot .right {
+    width: 100%;
+    height: 60%;
+  }
+  .wrapper footer .container-foot .right .right-body a {
+    width: 10%;
+    height: 30%;
+    margin: 0 5%;
+  }
+  .wrapper footer .caption {
+    height: 5%;
+  }
+  .wrapper section .main-1 .slider {
+    width: 100%;
+  }
+  .wrapper section .main-2 {
+    height: 2200px;
+  }
+  .wrapper section .main-2 .main-head {
+    height: 2.5%;
+  }
+  .wrapper section .main-2 .main-body {
+    height: 96%;
+  }
+  .wrapper section .main-2 .main-body .card {
+    width: 45%;
+    height: 19%;
+  }
+  .wrapper section .main-3 {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .wrapper section .main-3 .registr {
+    width: 100%;
+    height: 70%;
+  }
+  .wrapper section .main-3 .sign {
+    width: 100%;
+    height: 30%;
+  }
+  .wrapper section .main-3 .sign .sign-header {
+    height: 20%;
+  }
+  .wrapper section .main-3 .sign .sign-body .fields {
+    height: 35%;
+  }
+  .wrapper section .catalog .catalog-body .menu {
+    width: 25%;
+  }
+  .wrapper section .catalog .catalog-body .items {
+    width: 74%;
+  }
+  .wrapper section .catalog .catalog-body .items .card {
+    width: 48%;
+  }
+  .wrapper section .container-about1,
+  .wrapper section .container-about2 {
+    height: 900px;
+  }
+  .wrapper section .container-about1 .text1,
+  .wrapper section .container-about1 .text2,
+  .wrapper section .container-about2 .text1,
+  .wrapper section .container-about2 .text2 {
+    grid-column: 1/4;
+    grid-row: 1/8;
+  }
+  .wrapper section .container-about1 .img1-1,
+  .wrapper section .container-about1 .img2-1,
+  .wrapper section .container-about2 .img1-1,
+  .wrapper section .container-about2 .img2-1 {
+    width: 100%;
+    height: 80%;
+    grid-column: 1/2;
+    grid-row: 8/10;
+  }
+  .wrapper section .container-about1 .img1-2,
+  .wrapper section .container-about1 .img2-2,
+  .wrapper section .container-about2 .img1-2,
+  .wrapper section .container-about2 .img2-2 {
+    width: 100%;
+    height: 80%;
+    grid-column: 3/4;
+    grid-row: 8/10;
+  }
+  .wrapper section .container-about3 {
+    height: 1100px;
+  }
+  .wrapper section .container-form .form-body {
+    width: 90%;
+  }
+  .wrapper section .personal-container .personal-form {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper header .container-head .head-2 ul li a {
+    color: green;
+  }
+  .wrapper footer .container-foot .right .right-body a {
+    width: 15%;
+    margin: 0 2.5%;
+  }
+  .wrapper section .main-1 {
+    height: 300px;
+  }
+  .wrapper section .main-2 {
+    height: 4200px;
+  }
+  .wrapper section .main-2 .main-head {
+    height: 1.5%;
+  }
+  .wrapper section .main-2 .main-body {
+    height: 98%;
+  }
+  .wrapper section .main-2 .main-body .card {
+    width: 80%;
+    height: 9%;
+  }
+  .wrapper section .catalog .catalog-body .menu {
+    width: 30%;
+  }
+  .wrapper section .catalog .catalog-body .items {
+    width: 65%;
+  }
+  .wrapper section .catalog .catalog-body .items .card {
+    width: 95%;
+    min-height: 600px;
+  }
+  .wrapper section .container-about1,
+  .wrapper section .container-about2 {
+    height: 1100px;
+  }
+  .wrapper section .container-about1 .img1-1,
+  .wrapper section .container-about1 .img2-1,
+  .wrapper section .container-about2 .img1-1,
+  .wrapper section .container-about2 .img2-1 {
+    width: 70%;
+    height: 70%;
+    grid-column: 1/3;
+    justify-self: flex-start;
+  }
+  .wrapper section .container-about1 .img1-2,
+  .wrapper section .container-about1 .img2-2,
+  .wrapper section .container-about2 .img1-2,
+  .wrapper section .container-about2 .img2-2 {
+    width: 70%;
+    height: 70%;
+    grid-column: 2/4;
+    justify-self: flex-end;
+  }
+  .wrapper section .container-about3 {
+    height: 1300px;
+  }
+}

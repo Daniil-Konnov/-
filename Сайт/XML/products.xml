@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<image>/img-bd/smartphones_tablets/POCO X3 Pro.jpg</image>
+		<title>POCO X3 Pro 8GB/256GB(черный)</title>
+		<price>860,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/televisors/Samsung QE55QN87AAU.jpg</image>
+		<title>Samsung QE55QN87AAU</title>
+		<price>4 150,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/microwaves/Panasonic NN-GD38HS.jpg</image>
+		<title>Panasonic NN-GD38HS</title>
+		<price>770,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/laptops_computers/Lenovo Legion 5.jpg</image>
+		<title>Lenovo Legion 5</title>
+		<price>4 100,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/refrigerators_freezers/ATLANT XM 4307-000.jpg</image>
+		<title>ATLANT XM 4307-000</title>
+		<price>1 250,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/televisors/LG 55UQ76009LC.jpg</image>
+		<title>LG 55UQ76009LC</title>
+		<price>2 700,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/smartphones_tablets/Huawei MatePad T10.jpg</image>
+		<title>Huawei MatePad T10 2GB/32GB(синий)</title>
+		<price>500,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/vacuum_cleaner/Philips XB202301.jpg</image>
+		<title>Philips XB202301</title>
+		<price>400,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/smartphones_tablets/Nokia T20.jpg</image>
+		<title>Nokia T20 4GB/64GB(синий)</title>
+		<price>850,0 BYN</price>
+	</product>
+	<product>
+		<image>/img-bd/washing_machines/ATLANT СМА 60С1010-00.jpg</image>
+		<title>ATLANT СМА 60С1010-00</title>
+		<price>1 200,0 BYN</price>
+	</product>
+</products>
